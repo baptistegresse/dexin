@@ -15,7 +15,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="h-96 w-full flex space-x-16 justify-center">
+      <div className="h-96 flex space-x-28 justify-center">
         <div className="flex flex-col bg-[#242529] w-2/5 h-full text-left text-xl text-white rounded-xl space-y-4 pl-12">
             <h2 className="text-2xl pt-8">Lorem ipsum dolor sit, amet consecutiv</h2>
             <p>Lorem ipsum dolor sit, dolor sit</p>
