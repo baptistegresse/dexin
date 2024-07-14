@@ -28,7 +28,7 @@ export default function Home() {
             <p>Lorem ipsum dolor sit, dolor sit</p>
             <p>Lorem ipsum dolor sit, dolor sit</p>
         </div>
-        <div className="flex flex-col mx-22 px-6 w-1/4 h-full text-left text-1xl text-white rounded-xl  items-center justify-between ">
+        <div className="flex flex-col mx-22 px-6 w-1/4 h-full text-left text-1xl text-white rounded-xl  items-center justify-center space-y-32">
             <div className="w-full flex justify-around">
               <div className="mr-2 w-full flex flex-col items-start">
               <span className="inline-flex  items-center justify-between rounded-full bg-purple-100 px-2.5 py-0.5 text-gray-300 dark:bg-gray-200 dark:text-purple-100">
@@ -54,18 +54,6 @@ export default function Home() {
                 </span>
                 <input type="number" id="first_name" className="w-full bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500" placeholder="%" style={{ marginTop: '8px' }} />
               </div>
-            </div>
-            <div className="w-full mb-20">
-              <span className="inline-flex items-center justify-center rounded-full bg-purple-100 px-2.5 py-0.5 text-gray-300 dark:bg-gray-200 dark:text-purple-100">
-                    <Image
-                      src={LogoUSDCsvg}
-                      alt="USDC Logo"
-                      width={15}
-                      height={15}
-                    />
-                    <p className="whitespace-nowrap text-sm text-black">USDC</p>
-              </span>
-              <input type="number" id="first_name" className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-gray-500 focus:border-gray-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-gray-500 dark:focus:border-gray-500" placeholder="" style={{ marginTop: '8px' }} />
             </div>
             <button className="bg-red-400 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded w-full">
               Create my index
